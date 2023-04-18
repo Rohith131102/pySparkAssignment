@@ -7,7 +7,7 @@ from pyspark_assignment import  covidData # Fecthing the dataframe created in ot
 
 
 covidIndia = Flask(__name__)
-@covidIndia.route('/') # defing the things to happen on home path
+@covidIndia.route('/') 
 def home():
     # returning the jsonfied index
     return jsonify({
