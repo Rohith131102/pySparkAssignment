@@ -31,12 +31,6 @@ sc = SparkContext.getOrCreate() # creating a Spark context
 sc.setLogLevel("ERROR")
 
 
-response = getData()
-
-#json_rdd = sc.parallelize(response.json().values()) # creating a rdd from the data fetched above
-json_rdd = sc.parallelize(response.json().values()) # creating a rdd from the data fetched above
-covidData = spark.read.json(json_rdd) 
-
 
 
 spark = SparkSession.builder.master('local[*]').getOrCreate() # Creating a spark session
