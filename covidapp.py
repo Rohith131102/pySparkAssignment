@@ -1,7 +1,7 @@
 from pyspark.sql.types import *
 from pyspark.sql.functions import *
 from flask import Flask, jsonify
-from pyspark_assignment import  covidData # Fecthing the dataframe created in other file
+from dataframe import  covidData # Fecthing the dataframe created in other file
 
 
 
