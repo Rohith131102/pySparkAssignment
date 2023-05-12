@@ -2,18 +2,27 @@
 ### PEER LEARNING DOCUMENT
 ### Problem Statement
 Use Python to make a request to https://rapidapi.com/Gramzivi/api/covid-19-data/ for at least 20 countries using ‘/getLatestCountryDataByName’ API, fill up the csv file, create a dataFrame using Spark. Using the Above dataFrame, find out the following: 
+
 2.1) Most affected state among all the states ( total death/total covid cases). 
+
 2.2) Least affected state among all the states ( total death/total covid cases). 
+
 2.3) State with highest covid cases. 
+
 2.4) State with minimum covid cases. 
+
 2.5) Total cases. 
+
 2.6) State that handled the covid most efficiently( total recovery/ total covid cases). 
+
 2.7) State that handled the covid least efficiently( total recovery/ total covid cases). 
 
 
 Create a RestFul API to show datas collected in question 1. Create each RestFul API to show the result of every sub question in question 2. Please pay attention to API's naming conventions.
 
 ### Aayush Sinha's Approach:
+Link - https://github.com/aayusss2101/PySpark-Assignment 
+
 He had created two files named 
  - Api.py 
 - Process.py
@@ -70,6 +79,9 @@ The available routes are:
 
 
 ### Chakradhar Srinivas's Approach
+
+Link - https://github.com/chakradharsrinivas16/Pyspark_Assignment
+
 created Two files
 - dataframe.py
 - app.py
